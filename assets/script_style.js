@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
     // Preloder
-    $(window).on('load', function() {
-        $('#preloader').fadeOut('slow', function() {
-            $(this).remove();
-        });
-    });
+    // $(window).on('load', function() {
+    //     $('#preloader').fadeOut('slow', function() {
+    //         $(this).remove();
+    //     });
+    // });
    
     // scrollTop
 
