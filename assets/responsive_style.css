@@ -1,0 +1,145 @@
+@media only screen and (max-width: 991px) {
+    html{
+        font-size: 9.24px;
+    }
+    .section-banner{
+        text-align: center;
+    }
+    button.custom-arrow {
+        display: none;
+    }
+    .about-content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    html{
+        font-size: 8.07px;
+    }
+    .section{
+        padding: 50px 0;
+    }
+    .section-banner{
+        text-align: center;
+    }
+    .section-title{
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .section-x2 .butn-wrap,  .section-x4 .butn-wrap, .section-x6 .butn-wrap, .section-x8 .butn-wrap, .section-x10 .butn-wrap{
+        padding-left: 30px;
+    }
+    .row{
+        padding: 0;
+        margin: 0;
+    }
+    /* ========================================================== header start */
+    .top-bar {
+        margin-bottom: 10px;
+    }
+    .menu-main {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(10, 9, 9, 0.95); */
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding-top: 60px;
+    display: none;
+    }
+    .close-menu {display: block;}
+    ul.menu-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    li.menu-li {
+    margin-right: 0px;
+    }
+    li.menu-li a{
+    color: #050505;
+    }
+    a.menu-name {
+    padding: 15px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    }
+    .mobile-menu {
+    display: block;
+    }
+    .mobile-menu i{
+    color: #000;
+    }
+    .close-menu i{
+    color: #f81781;
+    }
+
+.top-bar .top-ul li:not(:last-child) {
+    padding-right: 0;
+    margin-right: 0;
+}
+.top-bar .top-ul li::after{
+    display: none;
+}
+.top-bar .top-ul{
+    display: block;
+}
+.top-bar{
+    text-align: center;
+}
+/* ========================================================== header start */
+/* section x1 start */
+.about-content {
+    padding-left: 0;
+    margin-top: 30px;
+}
+.about-content .butn-wrap{
+    padding: 0!important;
+    margin: 0!important;
+}
+section.section.section-x1 .butn-wrap {
+    padding: 0!important;
+    margin: 0!important;
+    margin-left: 20px!important;
+}
+/* ============================================================ section x1 end */
+/* =========================================================== section-x3 start */
+section.section.section-x3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* =========================================================== section-x7 start */
+.section.section-x7 {
+    padding-left: 0%;
+}
+.testimonial {
+    max-width: 100%;
+    margin-right: 0;
+}
+.footer-bottom {
+    text-align: center;
+}
+.footer-bottom-wrap {
+    display: block;
+}
+.footer-bottom .footer-bottom-wrap img {
+    margin: 0!important;
+    display: none;
+}
+.footer-bottom .card-item {
+    margin-top: 20px;
+    justify-content: center;
+}
+/* ================================================================== appoitment page */
+.contact-form {
+    margin-bottom: 20px;
+}
+/* ================================================================== portfolio page */
+.portfolio-img {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
